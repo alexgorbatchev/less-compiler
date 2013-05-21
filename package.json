@@ -1,0 +1,7 @@
+{
+    "name": "less-compiler",
+    "main": "./less-compiler.coffee",
+    "dependencies": {
+      "less": "*"
+    }
+}
