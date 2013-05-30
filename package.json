@@ -1,8 +1,12 @@
 {
-    "name": "less-compiler",
-    "main": "./less-compiler.coffee",
-    "version": "0.1.1",
-    "dependencies": {
-      "less": "*"
-    }
+  "name": "less-compiler",
+  "main": "./less-compiler.coffee",
+  "version": "0.1.2",
+  "repository": {
+    "type": "git",
+    "url": "git@git.alexgorbatchev.com:alexgorbatchev/less-compiler.git"
+  },
+  "dependencies": {
+    "less": "*"
+  }
 }
