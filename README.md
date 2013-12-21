@@ -34,15 +34,15 @@ The absolute best thing to do is to sign up with [Gittip](http://gittip.com) if 
       console.log(css);
     });
 
-## Other compilers
+## Testing
+
+    npm test
+
+## Other modules
 
 * [jade-compiler](https://github.com/alexgorbatchev/jade-compiler)
 * [stylus-compiler](https://github.com/alexgorbatchev/stylus-compiler)
 * [coffee-compiler](https://github.com/alexgorbatchev/coffee-compiler)
-
-## Testing
-
-    npm test
 
 ## License
 
