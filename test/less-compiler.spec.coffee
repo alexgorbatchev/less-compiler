@@ -1,4 +1,3 @@
-request = require 'request'
 chai    = require 'chai'
 fibrous = require 'fibrous'
 
