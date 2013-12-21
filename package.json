@@ -1,7 +1,7 @@
 {
   "name": "less-compiler",
   "main": "./less-compiler.js",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "A handy LESS compiler from a series of compilers that have the same signature.",
   "keywords": ["less", "css", "compiler"],
   "repository": {
