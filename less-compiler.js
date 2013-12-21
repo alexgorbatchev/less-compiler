@@ -43,8 +43,8 @@ module.exports = compiler = {
     var callback, filepath, opts, _i;
     filepath = arguments[0], opts = 3 <= arguments.length ? __slice.call(arguments, 1, _i = arguments.length - 1) : (_i = 1, []), callback = arguments[_i++];
     opts = opts[0] || {};
-    if (opts.filepath == null) {
-      opts.filepath = filepath;
+    if (opts.filename == null) {
+      opts.filename = filepath;
     }
     return fs.readFile(filepath, 'utf8', function(err, src) {
       if (err != null) {

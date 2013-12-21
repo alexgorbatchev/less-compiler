@@ -3,7 +3,7 @@ fs   = require 'fs'
 less = require 'less'
 
 module.exports = compiler =
-  fromSource : (src, opts..., callback) ->
+  fromSource: (src, opts..., callback) ->
     opts       = opts[0] or {}
     parserOpts = {}
     toCssOpts  = {}
@@ -40,9 +40,9 @@ module.exports = compiler =
       css  = tree.toCSS toCssOpts
       callback err, css
 
-  fromFile : (filepath, opts..., callback) ->
-    opts           = opts[0] or {}
-    opts.filepath ?= filepath
+  fromFile: (filepath, opts..., callback) ->
+    opts          = opts[0] or {}
+    opts.filename ?= filepath
 
     fs.readFile filepath, 'utf8', (err, src) ->
       return callback err if err?
