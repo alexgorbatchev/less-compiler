@@ -1,9 +1,13 @@
 {
   "name": "less-compiler",
   "main": "./less-compiler.js",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "A handy LESS compiler from a series of compilers that have the same signature.",
   "keywords": ["less", "css", "compiler"],
+  "author": {
+    "name": "Alex Gorbatchev",
+    "email": "alex.gorbatchev@gmail.com"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/alexgorbatchev/less-compiler.git"
@@ -18,8 +22,8 @@
   "devDependencies": {
     "less": "~1.5.1",
     "coffee-script": "~1.6.3",
-    "chai": "~1.6.0",
-    "mocha": "~1.10.0",
+    "chai": "~1.8.1",
+    "mocha": "~1.17.0",
     "fibrous": "~0.3.3"
   }
 }
