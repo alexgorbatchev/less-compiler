@@ -4,6 +4,7 @@
   "version": "0.2.4",
   "description": "A handy LESS compiler from a series of compilers that have the same signature.",
   "keywords": ["less", "css", "compiler"],
+  "license": "MIT",
   "author": {
     "name": "Alex Gorbatchev",
     "email": "alex.gorbatchev@gmail.com"
