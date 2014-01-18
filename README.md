@@ -3,7 +3,10 @@
 A handy [LESS](http://lesscss.org/) compiler from a series of compilers that have the same signature.
 
 [![Dependency status](https://david-dm.org/alexgorbatchev/less-compiler.png)](https://david-dm.org/alexgorbatchev/less-compiler)
-[![Build Status](https://travis-ci.org/alexgorbatchev/less-compiler.png)](https://travis-ci.org/alexgorbatchev/less-compiler)
+[![devDependency Status](https://david-dm.org/alexgorbatchev/less-compiler/dev-status.png)](https://david-dm.org/alexgorbatchev/less-compiler#info=devDependencies)
+[![Build Status](https://secure.travis-ci.org/alexgorbatchev/less-compiler.png?branch=master)](https://travis-ci.org/alexgorbatchev/less-compiler)
+
+[![NPM](https://nodei.co/npm/less-compiler.png?downloads=true)](https://npmjs.org/package/less-compiler)
 
 ## Support
 
